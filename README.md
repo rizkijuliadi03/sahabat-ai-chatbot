@@ -59,7 +59,7 @@ Proyek ini dibangun menggunakan **Node.js** dan **Express** di sisi backend, ser
 
 1. **Clone Repositori:**
    ```bash
-   git clone https://github.com/username/sahabat-ai.git
+   git clone https://github.com/rizkijuliadi03/sahabat-ai-chatbot.git
    cd sahabat-ai
    ```
 
