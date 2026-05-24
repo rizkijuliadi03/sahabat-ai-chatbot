@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sahabat AI - Teman Curhat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="app-container">
+    <main class="chat-container">
+      
+      <!-- Independent scrollable chat box -->
+      <div id="chat-box" class="chat-box">
+        <div class="empty-state" id="empty-state">
+          <h1 class="greeting-gradient">Halo, Rizki</h1>
+          <h2 class="subtitle">Ada cerita atau keluh kesah yang ingin kamu bagi hari ini? Aku di sini untuk mendengarkan.</h2>
+        </div>
+      </div>
+
+      <!-- Sticky-placed Input Container -->
+      <div class="input-container">
+        <form id="chat-form">
+          <div class="input-wrapper">
+            <input type="text" id="user-input" placeholder="Ceritakan apa yang kamu rasakan di sini..." autocomplete="off" required />
+            <button type="submit" id="send-button">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
+              </svg>
+            </button>
+          </div>
+        </form>
+        <div class="input-footer">
+          Project ini dibuat oleh JULLY dalam pembelajaran HACKTIV8
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
